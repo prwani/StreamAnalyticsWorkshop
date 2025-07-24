@@ -1,5 +1,14 @@
 # Lab 7: Real-time Power BI Visualization
 
+## ⚠️ Important Notice: Real-time Streaming Deprecation
+
+Real-time streaming in Power BI is deprecating. For more information about the retirement of real-time streaming in Power BI, see these posts:
+
+- [Power BI output from Azure Stream Analytics](https://learn.microsoft.com/en-us/azure/stream-analytics/power-bi-output)
+- [Announcing the retirement of real-time streaming in Power BI](https://powerbi.microsoft.com/en-us/blog/announcing-the-retirement-of-real-time-streaming-in-power-bi/)
+
+This lab is maintained for educational purposes and to demonstrate historical capabilities. Consider migrating to Microsoft Fabric Real-Time Intelligence as covered in [Lab 9](./lab-09-fabric-rti.md).
+
 ## 🎯 Lab Objectives
 
 In this lab, you will:
