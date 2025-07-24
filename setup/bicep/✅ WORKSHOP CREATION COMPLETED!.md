@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Workshop Creation Completed"
+nav_order: 2
+parent: Setup
+---
+
 ✅ WORKSHOP CREATION COMPLETED! 
 
 I've successfully created a comprehensive Azure Stream Analytics Workshop with the following structure:

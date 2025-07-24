@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Lab 8: Complete IoT Pipeline"
+nav_order: 8
+parent: Labs
+---
+
 # Lab 8: Complete IoT Pipeline - Client → IoT Hub/Event Hub → Stream Analytics → SQL DB → Power BI
 
 ## 🎯 Lab Objectives

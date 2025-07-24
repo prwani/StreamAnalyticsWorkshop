@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Lab 3: Data Manipulation Functions"
+nav_order: 3
+parent: Labs
+---
+
 # Lab 3: Data Manipulation Functions
 
 ## 🎯 Lab Objectives

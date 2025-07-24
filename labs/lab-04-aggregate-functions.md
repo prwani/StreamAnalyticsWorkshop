@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Lab 4: Aggregate Functions"
+nav_order: 4
+parent: Labs
+---
+
 # Lab 4: Aggregate Functions
 
 ## 🎯 Lab Objectives
@@ -153,7 +160,7 @@ GROUP BY
 -- Group by hour of day to identify patterns
 SELECT 
     DATEPART(hour, timestamp) AS HourOfDay,
-    DATEPART(dayofweek, timestamp) AS DayOfWeek,
+    DATEPART(weekday, timestamp) AS DayOfWeek,
     System.Timestamp() AS WindowEnd,
     COUNT(*) AS ReadingCount,
     AVG(temperature) AS AvgTemperature,
@@ -166,7 +173,7 @@ INTO [blob-output]
 FROM [telemetry-input] TIMESTAMP BY timestamp
 GROUP BY 
     DATEPART(hour, timestamp),
-    DATEPART(dayofweek, timestamp),
+    DATEPART(weekday, timestamp),
     TumblingWindow(hour, 1)
 ```
 

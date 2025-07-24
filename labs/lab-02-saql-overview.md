@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Lab 2: Stream Analytics Query Language (SAQL) Overview"
+nav_order: 2
+parent: Labs
+---
+
 # Lab 2: Stream Analytics Query Language (SAQL) Overview
 
 ## 🎯 Lab Objectives

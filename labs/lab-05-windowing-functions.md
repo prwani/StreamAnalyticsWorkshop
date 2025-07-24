@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Lab 5: Windowing Functions"
+nav_order: 5
+parent: Labs
+---
+
 # Lab 5: Windowing Functions
 
 ## 🎯 Lab Objectives

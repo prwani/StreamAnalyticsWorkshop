@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Lab 10: IoT Edge Overview - Edge Analytics and Stream Processing"
+nav_order: 10
+parent: Labs
+---
+
 # Lab 10: IoT Edge Overview - Edge Analytics and Stream Processing
 
 ## 🎯 Lab Objectives

@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Python Sample Data Generator"
+nav_order: 11
+parent: Labs
+---
+
 # Azure Event Hub Python Sample Data Generator
 
 This directory contains Python scripts that mimic the PowerShell functionality for sending sample telemetry data to Azure Event Hub on a periodic basis.

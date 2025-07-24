@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Copy Button Test</title>
+    <link rel="stylesheet" href="assets/css/style.scss">
+    <style>
+        /* Inline styles for testing */
+        .code-block-container {
+            position: relative;
+            margin: 1rem 0;
+        }
+
+        .code-block-container pre {
+            margin: 0;
+            border-radius: 0.375rem;
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 1rem;
+            overflow-x: auto;
+        }
+
+        .copy-button {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #0078d4;
+            color: white;
+            border: none;
+            border-radius: 0.25rem;
+            padding: 0.25rem 0.5rem;
+            cursor: pointer;
+            font-size: 0.75rem;
+            font-family: system-ui, -apple-system, sans-serif;
+            opacity: 0.8;
+            transition: opacity 0.2s, background-color 0.2s;
+            z-index: 10;
+            min-width: 50px;
+            text-align: center;
+        }
+
+        .copy-button:hover {
+            opacity: 1;
+            background-color: #106ebe;
+        }
+
+        .copy-button.copied {
+            background-color: #107c10;
+        }
+
+        .code-block-container pre code {
+            display: block;
+            padding-right: 4rem;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Copy Functionality</h1>
+    
+    <p>Here's a SQL code block:</p>
+    <pre><code class="language-sql">SELECT 
+    deviceId,
+    temperature,
+    timestamp
+FROM [telemetry-input]
+WHERE temperature > 25</code></pre>
+
+    <p>Here's a PowerShell code block:</p>
+    <pre><code class="language-powershell">Install-Module -Name Az -AllowClobber -Scope CurrentUser
+Connect-AzAccount</code></pre>
+
+    <p>Here's inline code: <code>SELECT * FROM table</code> which should not have a copy button.</p>
+
+    <script src="assets/js/copy-code.js"></script>
+</body>
+</html>

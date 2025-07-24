@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Lab 6: Analytics Functions - Anomaly Detection"
+nav_order: 6
+parent: Labs
+---
+
 # Lab 6: Analytics Functions - Anomaly Detection
 
 ## 🎯 Lab Objectives

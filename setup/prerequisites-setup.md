@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Prerequisites Setup Guide"
+nav_order: 1
+parent: Setup
+---
+
 # Prerequisites Setup Guide
 
 This guide will help you set up all the Azure resources required for the Stream Analytics Workshop.

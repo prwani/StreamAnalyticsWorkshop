@@ -34,7 +34,7 @@ git add .
 git commit -m "Initial commit: Azure Stream Analytics Workshop"
 
 # Add your GitHub repository as remote (replace with your username/repo)
-git remote add origin https://github.com/YOURUSERNAME/StreamAnalyticsWorkshop.git
+git remote add origin https://github.com/prwani/StreamAnalyticsWorkshop.git
 
 # Push to GitHub
 git push -u origin main

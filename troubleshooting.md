@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Troubleshooting Guide"
+nav_order: 3
+---
+
 # Troubleshooting Guide
 
 ## 🔧 Common Issues and Solutions
