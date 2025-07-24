@@ -1,0 +1,65 @@
+# Site settings
+title: "Azure Stream Analytics Workshop"
+description: "Hands-on training for real-time data processing using Azure Stream Analytics and related Azure services"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# GitHub Pages specific settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - README.md
+  - labs/README.md
+  - setup/prerequisites-setup.md
+  - troubleshooting.md
+
+# Collections for better organization
+collections:
+  labs:
+    output: true
+    permalink: /:collection/:name/
+  queries:
+    output: true
+    permalink: /:collection/:name/
+
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "labs"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .git/
+  - .gitignore
+
+# Include files that start with underscore
+include:
+  - _pages
