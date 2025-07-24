@@ -2,7 +2,7 @@
 
 Welcome to the Azure Stream Analytics Workshop! This hands-on training will guide you through the fundamentals of real-time data processing using Azure Stream Analytics and related Azure services.
 
-> 🌐 **Live Workshop**: This workshop is available online at [https://prwani.github.io/StreamAnalyticsWorkshop](https://yourusername.github.io/StreamAnalyticsWorkshop)
+> 🌐 **Live Workshop**: This workshop is available online at [https://prwani.github.io/StreamAnalyticsWorkshop](https://prwani.github.io/StreamAnalyticsWorkshop)
 
 ## 🎯 Workshop Objectives
 
