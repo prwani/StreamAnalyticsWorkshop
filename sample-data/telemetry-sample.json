@@ -1,0 +1,152 @@
+[
+  {
+    "deviceId": "device-001",
+    "timestamp": "2024-01-15T10:00:00.000Z",
+    "temperature": 25.5,
+    "humidity": 60.2,
+    "pressure": 1013.25,
+    "location": {
+      "lat": 47.6062,
+      "lon": -122.3321
+    },
+    "metadata": {
+      "sensorType": "DHT22",
+      "firmware": "v1.2.3"
+    }
+  },
+  {
+    "deviceId": "device-002",
+    "timestamp": "2024-01-15T10:01:00.000Z",
+    "temperature": 32.1,
+    "humidity": 45.8,
+    "pressure": 1015.75,
+    "location": {
+      "lat": 40.7128,
+      "lon": -74.0060
+    },
+    "metadata": {
+      "sensorType": "BME280",
+      "firmware": "v1.1.5"
+    }
+  },
+  {
+    "deviceId": "device-003",
+    "timestamp": "2024-01-15T10:02:00.000Z",
+    "temperature": 18.9,
+    "humidity": 75.3,
+    "pressure": 1009.5,
+    "location": {
+      "lat": 34.0522,
+      "lon": -118.2437
+    },
+    "metadata": {
+      "sensorType": "SHT30",
+      "firmware": "v2.0.1"
+    }
+  },
+  {
+    "deviceId": "device-004",
+    "timestamp": "2024-01-15T10:03:00.000Z",
+    "temperature": 28.7,
+    "humidity": 52.1,
+    "pressure": 1020.3,
+    "location": {
+      "lat": 41.8781,
+      "lon": -87.6298
+    },
+    "metadata": {
+      "sensorType": "DHT22",
+      "firmware": "v1.2.3"
+    }
+  },
+  {
+    "deviceId": "device-005",
+    "timestamp": "2024-01-15T10:04:00.000Z",
+    "temperature": 35.2,
+    "humidity": 30.8,
+    "pressure": 1005.1,
+    "location": {
+      "lat": 33.4484,
+      "lon": -112.0740
+    },
+    "metadata": {
+      "sensorType": "BME680",
+      "firmware": "v1.0.8"
+    }
+  },
+  {
+    "deviceId": "device-006",
+    "timestamp": "2024-01-15T10:05:00.000Z",
+    "temperature": 12.4,
+    "humidity": 88.9,
+    "pressure": 998.7,
+    "location": {
+      "lat": 44.9778,
+      "lon": -93.2650
+    },
+    "metadata": {
+      "sensorType": "SHT30",
+      "firmware": "v2.0.1"
+    }
+  },
+  {
+    "deviceId": "device-007",
+    "timestamp": "2024-01-15T10:06:00.000Z",
+    "temperature": 22.8,
+    "humidity": 65.4,
+    "pressure": 1018.9,
+    "location": {
+      "lat": 39.7392,
+      "lon": -104.9903
+    },
+    "metadata": {
+      "sensorType": "DHT22",
+      "firmware": "v1.2.3"
+    }
+  },
+  {
+    "deviceId": "device-008",
+    "timestamp": "2024-01-15T10:07:00.000Z",
+    "temperature": 37.9,
+    "humidity": 25.3,
+    "pressure": 1002.4,
+    "location": {
+      "lat": 29.7604,
+      "lon": -95.3698
+    },
+    "metadata": {
+      "sensorType": "BME280",
+      "firmware": "v1.1.5"
+    }
+  },
+  {
+    "deviceId": "device-009",
+    "timestamp": "2024-01-15T10:08:00.000Z",
+    "temperature": 15.6,
+    "humidity": 82.1,
+    "pressure": 1025.8,
+    "location": {
+      "lat": 42.3601,
+      "lon": -71.0589
+    },
+    "metadata": {
+      "sensorType": "SHT30",
+      "firmware": "v2.0.1"
+    }
+  },
+  {
+    "deviceId": "device-010",
+    "timestamp": "2024-01-15T10:09:00.000Z",
+    "temperature": 26.3,
+    "humidity": 58.7,
+    "pressure": 1014.2,
+    "location": {
+      "lat": 37.7749,
+      "lon": -122.4194
+    },
+    "metadata": {
+      "sensorType": "BME680",
+      "firmware": "v1.0.8"
+    }
+  }
+]

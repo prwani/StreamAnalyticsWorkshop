@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <!-- Workshop Navigation -->
+        <nav class="workshop-nav">
+          <h3>🏗️ Workshop Labs</h3>
+          <ol>
+            <li><a href="{{ '/labs/lab-01-sa-job-101' | relative_url }}">Lab 1: Stream Analytics Job 101</a></li>
+            <li><a href="{{ '/labs/lab-02-saql-overview' | relative_url }}">Lab 2: SAQL Overview</a></li>
+            <li><a href="{{ '/labs/lab-03-data-manipulation' | relative_url }}">Lab 3: Data Manipulation</a></li>
+            <li><a href="{{ '/labs/lab-04-aggregate-functions' | relative_url }}">Lab 4: Aggregate Functions</a></li>
+            <li><a href="{{ '/labs/lab-05-windowing-functions' | relative_url }}">Lab 5: Windowing Functions</a></li>
+            <li><a href="{{ '/labs/lab-06-analytics-functions' | relative_url }}">Lab 6: Analytics Functions</a></li>
+            <li><a href="{{ '/labs/lab-07-powerbi-visualization' | relative_url }}">Lab 7: Power BI Visualization</a></li>
+            <li><a href="{{ '/labs/lab-08-end-to-end-pipeline' | relative_url }}">Lab 8: End-to-End Pipeline</a></li>
+            <li><a href="{{ '/labs/lab-09-fabric-rti' | relative_url }}">Lab 9: Fabric RTI</a></li>
+            <li><a href="{{ '/labs/lab-10-iot-edge' | relative_url }}">Lab 10: IoT Edge (Bonus)</a></li>
+          </ol>
+          
+          <h3>📚 Resources</h3>
+          <ul>
+            <li><a href="{{ '/setup/prerequisites-setup' | relative_url }}">Prerequisites Setup</a></li>
+            <li><a href="{{ '/troubleshooting' | relative_url }}">Troubleshooting</a></li>
+            <li><a href="{{ '/queries/' | relative_url }}">Sample Queries</a></li>
+          </ul>
+        </nav>
+
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

@@ -1,0 +1,12 @@
+# Azure Event Hub Python Sample Data Generator Dependencies
+
+# Required for the Azure SDK version (generate_sample_data.py)
+azure-eventhub>=5.11.0
+azure-identity>=1.15.0
+azure-mgmt-eventhub>=10.1.0
+
+# Required for the REST API version (generate_sample_data_rest.py)
+requests>=2.31.0
+
+# Optional but recommended
+urllib3>=2.0.0
